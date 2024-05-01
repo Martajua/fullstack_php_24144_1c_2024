@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fjalla One", sans-serif;
+}
+
+body {
+  background: #0a0a0d;
+}
+/*HEADER*/
+header .navbar {
+  background:#730E0E;
+  padding: 2%;
+}
+header .navbar-brand {
+  color: white;
+  font-weight: bold;
+  font-size: 2vw;
+}
+header .navbar-brand:hover {
+  color: #0a0a0d;
+  animation: bounceIn;
+  animation-duration: 1s;
+}
+header .nav-item {
+  margin-right: 20px;
+}
+header .nav-link {
+  font-size: 1.5vw;
+  color: white;
+  font-weight: bold;
+}
+header .nav-link:hover {
+  color: #0a0a0d;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px black;
+}
+header .btn-admin {
+  font-weight: bold;
+  font-size: 1.5vw;
+  padding: 0.7vw;
+}
+header .btn-admin:hover {
+  color: #0a0a0d;
+  border: none;
+  background-color: #BF7D2C;
+  box-shadow: 5px 5px 10px black;
+  font-weight: bold;
+}
+/*MAIN*/
+div.card{
+  margin: 0;
+  border:0;
+}
+main .card-img{
+  border-radius: 0;
+}
+.card-img-overlay {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center; 
+}
+.card-title, .card-text, .btn {
+  margin-bottom: 10px; 
+}
+.card-title{
+  padding: 3vw;
+  font-size: 6vw;
+  font-weight: bold;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+}
+.card-text{
+  padding: 3vw;
+  font-size: 4vw;
+  font-weight: lighter;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+}
+main .btn{
+  font-size: 2vw;
+  color: white;
+  background-color: #BF7D2C;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+  border: none;
+}
+main .btn:hover{
+  color: white;
+  border: none;
+  background-color: #730E0E;
+  font-size: 2.5vw;
+}
+
+/*PRIMERA SECCION*/
+#seccion-one{
+  padding: 5vw;
+  background-color:#0A0A0D ;
+  color:#BF7D2C;
+}
+.navbar {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+.navbar input[type="search"] {
+  width: 500px; 
+  padding: 5px; 
+}
+.navbar .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+}
+.navbar p {
+  margin-bottom: 0; 
+}
+.navbar form {
+  margin-top: 10px; 
+}
+#seccion-one .btn{
+  font-size: 2vw;
+  color: white;
+  background-color: #730E0E;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+  border: none;
+}
+#seccion-one .btn:hover{
+  color: white;
+  border: none;
+  background-color: #BF7D2C;
+  font-size: 2.5vw;
+}
+
+/*SEGUNDA SECCION*/
+#seccion-two .container{
+  text-align: center;
+}
+#seccion-two .container hr{
+  height: 10px;
+  width: 80%;
+  color: #730E0E;
+  margin: 20px auto;
+}
+#seccion-two{
+  padding: 6vw;
+  background-color:#0A0A0D ;
+  color:#BF7D2C;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#seccion-two .btn{
+  font-size: 2vw;
+  color: white;
+  background-color: #730E0E;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+  border: none;
+}
+#seccion-two .btn:hover{
+  color: white;
+  border: none;
+  background-color: #BF7D2C;
+  font-size: 2.5vw;
+}
+/*TERCERA SECCION*/
+#seccion-three .container{
+  text-align: center;
+}
+#seccion-three .container hr{
+  height: 10px;
+  width: 80%;
+  color: #730E0E;
+  margin: 20px auto;
+}
+#seccion-three{
+  padding: 6vw;
+  background-color:#0A0A0D ;
+  color:#BF7D2C;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#scroll {
+  overflow-x: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 2vw;
+  
+}
+#scroll .col {
+  flex: 0 0 auto;
+  margin-bottom: 5vw;
+  margin-right: 15px;
+}
+#scroll img {
+  max-width: 100%;
+  height: auto;
+}
+#scroll::-webkit-scrollbar {
+  width: 12px; 
+  background-color: #BF7D2C;
+}
+#scroll::-webkit-scrollbar-thumb {
+  background-color: #730E0E; 
+  border-radius: 6px;
+}
+/*FOOTER*/
+footer {
+  background:#730E0E;
+  padding: 2%;
+}
+footer .nav-item {
+  margin-right: 20px;
+  font-size: 1.5vw;
+}
+footer .nav-link {
+  color: white;
+  font-weight: bold;
+}
+footer .nav-link:hover {
+  color: #0a0a0d;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px black;
+}
+footer .btn-admin {
+  font-weight: bold;
+  font-size: 1.5;
+  padding: 0.7vw;
+}
+footer .btn-admin:hover {
+  color: #0a0a0d;
+  border: none;
+  background-color: #BF7D2C;
+  box-shadow: 5px 5px 10px black;
+  font-weight: bold;
+}
